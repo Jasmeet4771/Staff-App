@@ -18,7 +18,6 @@ const {email,password} = contact
  async function userlogin(){
 const {user} =  await signinwithGoogle();
 console.log("inlogin",user)
-const r= createUserDoc(user)
 
 
 }
