@@ -4,3 +4,9 @@
 
 [build.environment]
   CI = "false"
+
+# Serve the React app for direct visits and refreshes on client-side routes.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
